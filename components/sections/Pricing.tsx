@@ -21,7 +21,7 @@ const plans = [
   {
     badge: "Популярный",
     title: "Аудит продуктивности",
-    price: "2 900 ₽",
+    price: "3 000 ₽",
     popular: true,
     features: [
       { text: "Всё из Базового", included: true },
