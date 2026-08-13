@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/sections/ContactForm";
+import LeadForm from "@/components/sections/LeadForm";
 
 export const metadata: Metadata = {
   title: "Контакты — HabitSync",
@@ -10,6 +11,9 @@ export default function ContactsPage() {
   return (
     <div className="pt-[72px]">
       <ContactForm />
+      <LeadForm />
     </div>
   );
 }
+
+
